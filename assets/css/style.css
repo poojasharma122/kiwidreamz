@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global CSS Start */
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Forum", serif;
+    margin: 0;
+    line-height: 1;
+}
+
+p {
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+button,
+textarea,
+input {
+    font-family: "Raleway", sans-serif;
+}
+
+input {
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+
+.py-7 {
+    padding: 4.375rem 0;
+}
+
+.pt-7 {
+    padding-top: 4.375rem;
+}
+
+.pb-7 {
+    padding-bottom: 4.375rem;
+}
+
+.py-10 {
+    padding: 6.25rem 0;
+}
+
+.pb-10 {
+    padding-bottom: 6.25rem;
+}
+
+.pt-10 {
+    padding-top: 6.25rem;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.m-0-auto {
+    margin: 0 auto
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.bg-0-0 {
+    background-position: 0% 0%;
+}
+
+/* Global CSS End */
+
+/* Website Scrollbar CSS  */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#0b6354;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0b6354;
+}
+
+/* Website Scrollbar CSS  */
+
+/* Section Heading CSS Start */
+.section_heading {
+    color: #fff;
+    font-size: 3rem;
+}
+
+span.red {
+    color: #f20040;
+}
+
+span.blue {
+    color: #1698a1;
+}
+
+.bg_dark {
+    background-color: #111;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.aoshide {
+    overflow: hidden;
+}
+
+/* Section Heading CSS End */
+
+/* Button CSS Start */
+
+/* Button CSS Start */
+.butn {
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-flex;
+    border: none;
+    text-align: center;
+    background-color: #f20040;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 0.9375rem 1.875rem;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 1.875rem;
+}
+
+.butn::after,
+.butn::before {
+    content: "";
+    display: block;
+    width: 3.125rem;
+    height: 3.125rem;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #1698a1;
+    transition: 1s ease;
+}
+
+.butn::before {
+    top: -2em;
+    left: -2em;
+}
+
+.butn::after {
+    left: calc(100% + 2em);
+    top: calc(100% + 2em);
+}
+
+.butn:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+.butn:hover::after,
+.butn:hover::before {
+    height: 25.625rem;
+    width: 25.625rem;
+}
+
+/* Button CSS End*/
+
+
+/* Header CSS Start */
+.header--sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 9999;
+    transition: all 0.3s ease-in-out;
+    padding: 0 40px;
+    padding: 0.9375rem 0px;
+}
+
+.header--sticky.fixed_header {
+    background-color: #fff;
+}
+.header--sticky.fixed_header .header__logo {
+    filter: invert(1);    
+}
+.header--sticky.fixed_header .header__menu-link  {
+    color: #111;   
+}
+.header--sticky.fixed_header .header__menu-link::after  {
+    background: #111;   
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.9375rem 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__brand {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header__logo,
+.footer__logo {
+    background-image: url(../images/logo.svg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.75rem;
+    width: 14.75rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.header__menu-toggle {
+    display: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: right;
+    cursor: pointer;
+    margin: auto 0;
+    z-index: 60;
+    background-image: url("../images/menu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-item {
+    margin: 0;
+}
+
+.header__menu-link {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: normal;
+    position: relative;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.header__menu-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.3s ease-out;
+}
+
+.header__menu-link--active::after {
+    transform: scaleX(0.9);
+    background: #fff;
+    transform-origin: center;
+}
+
+.header__menu-link:hover::after {
+    transform: scaleX(0.9);
+}
+
+.header__menu-close {
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/close.png);
+}
+
+/* Header CSS End */
+
+
+
+/* Banner CSS Start */
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+.banner__video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.banner__video-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner__video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner__content {
+    height: 100%;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.banner__title {
+    color: #fff;
+    font-size: 2.75rem;
+    margin: 0 0 0.625rem 0;
+    font-weight: 600;
+}
+
+.banner__subtitle {
+    letter-spacing: 1px;
+    display: block;
+    margin: 0 0 0.625rem 0;
+    color: #fff;
+    font-size: 1rem;
+}
+/* Banner CSS End*/
