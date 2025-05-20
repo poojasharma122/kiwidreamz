@@ -56,9 +56,8 @@
         display: block;
         text-align: end;
         z-index: 55;
-        font-size: 21px;
-        height: 2rem;
-        width: 2rem;
+        height: 1.6rem;
+        width: 1.6rem;
     }
 
     .text-center.conclusion_txt {
@@ -156,7 +155,7 @@
     }
 
     .section_heading {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .why_us_card_text h3 {
