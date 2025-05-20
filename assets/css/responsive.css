@@ -4,7 +4,7 @@
         font-size: 15px;
     }
 
-    .header__menu {
+    .menu {
         position: fixed;
         top: 0;
         left: 0;
@@ -21,21 +21,20 @@
         overflow: hidden;
     }
 
-    .menuToggle .header__menu {
+    .menuToggle .menu {
         transform: translateX(0);
         justify-content: flex-start;
     }
 
-    .header__menu ul {
+    .menu ul {
         flex-direction: column;
-
     }
 
-    .header__menu-toggle {
+    .menu-toggle {
         display: block;
     }
 
-    .header__menu-close {
+    .menu-close {
         position: absolute;
         top: 20px;
         right: 20px;
