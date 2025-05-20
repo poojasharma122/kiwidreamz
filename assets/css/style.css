@@ -1029,7 +1029,7 @@ span.theme {
     color: #666;
     font-size: 1rem;
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: 600;
     font-style: italic;
 }
 
@@ -1040,7 +1040,19 @@ span.theme {
 .hotel_desc_btn {
     color: #0b6354
 }
-
+.text-center.conclusion_txt {
+    font-size: 1.5rem;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.hotel_conclusion_sec {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0 0 0/70%);
+    background-blend-mode: multiply;
+}
 /* Hotel Cards CSS End */
 
 /* Hotel Description Pages CSS Start */
@@ -1098,5 +1110,9 @@ section.hotel_description_section {
     padding: 10px;
     color: #fff;
     border-radius: 0 10px;
+}
+.hotel_short_desc {
+    font-weight: 500;
+    font-style: italic;
 }
 /* Hotel Description Pages CSS Start */
