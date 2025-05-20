@@ -4,6 +4,21 @@
         font-size: 15px;
     }
 
+
+
+
+}
+
+
+@media (max-width: 991px) {
+    .banner {
+        height: 45rem;
+    }
+
+    .header.fixed_header .menu-link {
+        color: #fff;
+    }
+
     .menu {
         position: fixed;
         top: 0;
@@ -46,24 +61,113 @@
         width: 2rem;
     }
 
-
-}
-
-
-@media (max-width: 991px) {
-
-
+    .text-center.conclusion_txt {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
 
+    .banner {
+        height: 40rem;
+    }
 
+    .home_cat_cards {
+        height: 20rem;
+    }
+
+    .section_heading {
+        font-size: 2.5rem;
+    }
+
+    .text-center.conclusion_txt {
+        font-size: 1.2rem;
+    }
+
+    .py-7 {
+        padding: 3.375rem 0;
+    }
+
+    .hotel_short_desc,
+    .hotel_details p {
+        font-weight: 600;
+    }
 }
+
 @media (max-width: 575px) {
+    .menu-toggle {
+        width: 3rem;
+        height: 3rem;
+    }
 
+    .py-7 {
+        padding: 2.375rem 0;
+    }
 
+    .blog_cards {
+        height: 27.25rem;
+    }
+
+    .blog_cards {
+        height: 27.25rem;
+    }
+
+    .footer__logo {
+        width: 15.75rem;
+    }
+
+    .text-center.conclusion_txt {
+        font-size: 1.1rem;
+    }
+
+    .pb-5 {
+        padding-bottom: 1rem !important;
+    }
+    .home_banner {
+    height: 35.625rem;
 }
+.blog_description .hotel_name {
+    font-size: 1.7rem;
+}
+}
+
 @media (max-width: 480px) {
 
+    .logo,
+    .footer__logo {
+        width: 12rem;
+    }
 
+    .banner {
+        height: 32.142rem;
+    }
+
+    .banner__title {
+        font-size: 2rem;
+    }
+
+    .section_heading {
+        font-size: 2rem;
+    }
+
+    .why_us_card_text h3 {
+        font-size: 1.5rem;
+    }
+
+    .hotel_card_img {
+        height: 16.75rem;
+    }
+
+    .hotel_img {
+        height: 17.25rem;
+    }
+    .home_banner {
+    height: 30.625rem;
+}
+.banner_box h1 {
+    font-size: 2.5rem;
+}
 }

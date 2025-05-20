@@ -41,7 +41,7 @@ p {
     padding: 0;
     margin: 0;
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 ul {
@@ -328,15 +328,15 @@ span.theme {
 
 .menu-toggle {
     display: none;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     cursor: pointer;
     margin: auto 0;
     z-index: 60;
     background: url("../images/menu.png") no-repeat center / contain;
 }
 
-.header.fixed_header .menu-toggle{
+.header.fixed_header .menu-toggle {
     filter: invert(1);
 }
 
@@ -388,6 +388,10 @@ span.theme {
 .menu-close {
     display: none;
     background: url(../images/close.png) no-repeat center / cover;
+}
+
+.header.white_bg .menu-toggle {
+    filter: invert(1);
 }
 
 /* Header CSS End */
@@ -673,7 +677,7 @@ span.theme {
 /* Blog Cards CSS Start */
 .blog_cards {
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -852,7 +856,7 @@ span.theme {
     display: inline-block;
     transition: 0.2s all ease-in-out;
     color: #111;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -902,7 +906,7 @@ span.theme {
 .after-footer p {
     margin-bottom: 0;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #0b6354;
 }
 
@@ -1042,12 +1046,14 @@ span.theme {
 .hotel_desc_btn {
     color: #0b6354
 }
+
 .text-center.conclusion_txt {
     font-size: 1.5rem;
     color: #fff;
     font-style: italic;
     letter-spacing: 1px;
 }
+
 .hotel_conclusion_sec {
     background-position: center;
     background-repeat: no-repeat;
@@ -1055,6 +1061,11 @@ span.theme {
     background-color: rgba(0 0 0/70%);
     background-blend-mode: multiply;
 }
+
+.hotel_name {
+    color: #0b6354;
+}
+
 /* Hotel Cards CSS End */
 
 /* Hotel Description Pages CSS Start */
@@ -1078,16 +1089,17 @@ section.hotel_description_section {
 }
 
 .hotel_description_box {
-    padding:1.25rem;
+    padding: 1.25rem;
     box-shadow: #0b6354 0px 2px 8px 0px;
     border-radius: 0 1.25rem;
 }
-.header.white_bg{
+
+.header.white_bg {
     background-color: #fff;
-        box-shadow: #0b6354 0px 2px 8px 0px;
+    box-shadow: #0b6354 0px 2px 8px 0px;
 }
 
-.header.white_bg .logo{
+.header.white_bg .logo {
     filter: invert(1);
 }
 
@@ -1099,24 +1111,29 @@ section.hotel_description_section {
     list-style-type: disc;
     margin-left: 17px;
 }
+
 .hotel_details ul li {
     list-style-type: disc;
     margin-left: 1.0625rem;
 }
+
 .hotel_linking_btn {
     color: #0b6354;
 }
+
 .hotel_price_tag p {
     display: inline-block;
-    background:#0b6354;
+    background: #0b6354;
     padding: 0.625rem;
     color: #fff;
     border-radius: 0 0.625rem;
 }
+
 .hotel_short_desc {
     font-weight: 500;
     font-style: italic;
 }
+
 /* Hotel Description Pages CSS Start */
 
 /* Banner Section CSS Start */
@@ -1166,24 +1183,30 @@ section.hotel_description_section {
 .blog_description.hotel_description_section {
     margin-top: 0;
 }
-.blog_description.hotel_description_section:first-child{
-    margin-top:100px;
+
+.blog_description.hotel_description_section:first-child {
+    margin-top: 100px;
 }
+
 .blog_description .hotel_description_box {
-    padding: 1.5rem 0;
+    padding: 0;
     box-shadow: none;
     border-radius: 0;
 }
+
 .blog_description .hotel_details p {
     padding-top: 1.25rem;
 }
+
 .blog_description .hotel_short_desc {
     font-weight: 700;
 }
+
 .blog_description .hotel_name {
     color: #0b6354;
     font-size: 2rem;
 }
+
 .blog_desc_last_para a {
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -1191,6 +1214,12 @@ section.hotel_description_section {
     font-weight: 600;
     text-decoration-color: #0b6354;
 }
+
+.hotel_short_desc,
+.hotel_details p {
+    line-height: 1.5;
+}
+
 /* Blog Description Pages CSS End*/
 
 
@@ -1214,15 +1243,12 @@ section.hotel_description_section {
 }
 
 .footer-pages-content-grp h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 0.9375rem;
     color: #0b6354;
     line-height: 1.4;
 }
 
-.footer-pages-content-grp strong {
-    font-size: 1.125rem;
-}
 
 .footer-pages-content-grp p {
     font-size: 1.0625rem;
@@ -1254,4 +1280,5 @@ section.hotel_description_section {
 .footer-pages-content-grp p a:hover {
     text-decoration: underline;
 }
+
 /* Footer Pages CSS End*/
