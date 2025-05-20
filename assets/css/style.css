@@ -1116,3 +1116,77 @@ section.hotel_description_section {
     font-style: italic;
 }
 /* Hotel Description Pages CSS Start */
+
+/* Banner Section CSS Start */
+.home_banner {
+    height: 40.625rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home_banner::before {
+    position: absolute;
+    content: '';
+    background: rgba(0 0 0/60%);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.banner_box {
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.banner_box h1 {
+    font-size: 2.8125rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Banner Section  CSS End */
+
+/* Blog Description Pages CSS Start */
+.blog_description.hotel_description_section {
+    margin-top: 0;
+}
+.blog_description.hotel_description_section:first-child{
+    margin-top:100px;
+}
+.blog_description .hotel_description_box {
+    padding: 20px 0;
+    box-shadow: none;
+    border-radius: 0;
+}
+.blog_description .hotel_details p {
+    padding-top: 20px;
+}
+.blog_description .hotel_short_desc {
+    font-weight: 700;
+}
+.blog_description .hotel_name {
+    color: #0b6354;
+    font-size: 2rem;
+}
+.blog_desc_last_para a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: #0b6354;
+    font-weight: 600;
+    text-decoration-color: #0b6354;
+}
+/* Blog Description Pages CSS End*/
