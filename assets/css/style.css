@@ -1153,7 +1153,7 @@ section.hotel_description_section {
 }
 
 .banner_box h1 {
-    font-size: 2.8125rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: 400;
 }
@@ -1190,3 +1190,66 @@ section.hotel_description_section {
     text-decoration-color: #0b6354;
 }
 /* Blog Description Pages CSS End*/
+
+
+/* Footer Pages CSS Start*/
+.footer-pages-wrap {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    padding: 3.125rem 1.875rem;
+    border-radius: 20px;
+    margin-top: -5rem;
+    position: relative;
+}
+
+.footer-pages-content-grp {
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+}
+
+.footer-pages-content-grp:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-pages-content-grp h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.9375rem;
+    color: #0b6354;
+    line-height: 1.4;
+}
+
+.footer-pages-content-grp strong {
+    font-size: 1.125rem;
+}
+
+.footer-pages-content-grp p {
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #111;
+}
+
+.footer-pages-content-grp ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.footer-pages-content-grp ul li {
+    list-style-type: disc;
+}
+
+.footer-pages-content-grp ul li::marker {
+    color: #0b6354;
+}
+
+.footer-pages-content-grp p a {
+    color: #0b6354;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+    text-underline-offset: 4px;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp p a:hover {
+    text-decoration: underline;
+}
+/* Footer Pages CSS End*/
