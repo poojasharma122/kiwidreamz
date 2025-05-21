@@ -972,7 +972,9 @@ span.theme {
 .social-links a:hover {
     transform: translateY(-3px);
 }
-
+.disclaimer {
+    background-color: #0b6354;
+}
 .disclaimer_txt {
     border-top: 1px solid #0b6354;
     border-bottom: 1px solid #0b6354;
@@ -981,14 +983,14 @@ span.theme {
 .disclaimer_txt p {
     font-size: 1rem;
     font-weight: 500;
-    color: #111;
+    color: #fff;
 }
 
 .disclaimer_txt h3 {
     font-size: 1.7rem;
     font-weight: 400;
     margin-bottom: 0.9375rem;
-    color: #0b6354;
+    color: #fff;
 }
 
 /* Footer CSS End */
