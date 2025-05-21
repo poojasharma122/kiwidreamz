@@ -41,6 +41,10 @@
         justify-content: flex-start;
     }
 
+    .header.white_bg .menu-link {
+        color: #fff;
+    }
+
     .menu ul {
         flex-direction: column;
     }
